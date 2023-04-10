@@ -8,7 +8,8 @@ const nextConfig = {
     //"https://eth-sepolia.g.alchemy.com/v2/3756cc0cdd3d4271aaa213d16bc62f5c",
   },
   images: {
-    unoptimized: true
+    loader: 'imgix',
+    path: '',
   },
 };
 
