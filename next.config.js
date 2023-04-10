@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  exportTrailingSlash: true,
   env: {
     STAGING_ALCHEMY_KEY:
     "https://sepolia.infura.io/v3/3756cc0cdd3d4271aaa213d16bc62f5c",
@@ -9,6 +10,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-
-//`https://eth-sepolia.g.alchemy.com/v2/piUXRbxojG98uyjRYmQR-28MgmjiJ7Wg`,
-//https://eth-sepolia.g.alchemy.com/v2/piUXRbxojG98uyjRYmQR-28MgmjiJ7Wg
